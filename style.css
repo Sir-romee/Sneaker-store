@@ -229,6 +229,7 @@ nav{
 
 .colors,.sizes{
   display: flex;
+  margin-bottom: 20px;
 }
 
 .color{
@@ -236,4 +237,36 @@ nav{
   height: 32px;
   border-radius: 5px;
   background-color: black;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.color:last-child{
+  background-color: rgb(11, 11, 76)
+}
+
+.size{
+  padding: 5px 20px;
+  border: 1px solid black;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.productButton{
+  float:right;
+  padding: 10px 35px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 20px;
+  border-color: white;
+  box-shadow: 3px 3px 3px black;
+  transition: 0.5s;
+}
+
+.productButton:hover{
+  background-color: gray;
+  color: black;
 }
