@@ -81,8 +81,14 @@ const products = [
 
 let choosenProduct = products[0]
 
+const currentProductImg = document.querySelector(".productImg");
+
 menuItems.forEach((item, index) => {
   item.addEventListener("click", () => {
+    //change the current slide
     wrapper.style.transform = `translateX(${-100 * index}vw)`;
+
+    //change the choosen product
+    choosenProduct = products[index]
   });
 });
