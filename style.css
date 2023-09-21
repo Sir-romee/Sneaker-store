@@ -415,8 +415,8 @@ label{
 
 .nsItem{
   flex: 1;
-  background-color: gray;
-  color: white;
+  background-color: grey;
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
