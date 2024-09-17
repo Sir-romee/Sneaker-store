@@ -525,12 +525,13 @@ footer{
   }
 
   .slidderImage{
-    width: 70%;
+    width: 75%;
+    height: 77%;
   }
 
   .slideBg{
-    width: 95%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
   }
 
   .sliderTitle{
@@ -538,11 +539,13 @@ footer{
   }
 
   .sliderPrice{
-    top: unset;
+    top: 5px;
     bottom: -50;
-    left: 0;
+    left: 2;
     background-color: lightgrey;
-    font-size: 48px;
+    font-size: large;
+    height: 0;
+    border: 0;
   }
 
   .buyButton{
