@@ -525,13 +525,13 @@ footer{
   }
 
   .slidderImage{
-    width: 55%;
-    height: 75%;
+    width: 65%;
+    height: 100%;
   }
 
   .slideBg{
-    width: 90%;
-    height: 90%;
+    width: 98%;
+    height: 98%;
   }
 
   .sliderTitle{
@@ -559,7 +559,8 @@ footer{
   }
 
   .productImg{
-    width: 420px;
+    width: 260px;
+    height: 185px;
     padding-top: 35px;
     margin-bottom: -40px;
   }
