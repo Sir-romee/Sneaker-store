@@ -542,13 +542,13 @@ footer{
     bottom: -50;
     left: 0;
     background-color: lightgrey;
-    font-size: 50px;
+    font-size: 48px;
   }
 
   .buyButton{
     right: 8;
     top: 10px;
-    font-size: x-large;
+    font-size: medium;
   }
 
   .features{
@@ -583,10 +583,6 @@ footer{
   .productTitle{
     font-size: 50px;
     margin: 0;
-  }
-
-  .nsImg{
-    border-image: ;
   }
 
   .gallery{
