@@ -553,6 +553,10 @@ footer{
     flex-direction: column;
   }
 
+  .productImg{
+    width: 450px;
+  }
+
   .product{
     clip-path: none ;
     display: flex;
