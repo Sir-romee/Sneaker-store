@@ -585,6 +585,10 @@ footer{
     margin: 0;
   }
 
+  .nsImg{
+    border-image: ;
+  }
+
   .gallery{
     display: none;
   }
